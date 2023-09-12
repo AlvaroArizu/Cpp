@@ -78,15 +78,28 @@ for(w=0;w<10;w++)
 ![](Pic/Triangulares.png)
 - Superior 
 ```cpp
-
+// Triangular superior
+    for (i = 0; i < n; i++) {
+        for (j = i + 1; j < m; j++) {
+            mat[i][j] = 88;
+        }
+    }
 ```
 - Inferior 
 ```cpp
-
+// Triangular inferior
+    for (i = 0; i < n; i++) {
+        for (j = 0; j < i; j++) {
+            mat[i][j] = 77;
+        }
+    }
 ``` 
 
 ## Diagonal secundaria 
 ![](Pic/Diagonal%20Secundaria.jpg)
 ```cpp
-
+for (i=0;i<n;i++){
+    mat[i][n-1-i]=66;
+}
 ```
+
