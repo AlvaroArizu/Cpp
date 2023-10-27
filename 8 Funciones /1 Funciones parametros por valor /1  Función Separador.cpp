@@ -1,12 +1,12 @@
-// Función SEPARADOR que no recibe nada y no devuelve nada:
+// Funciï¿½n SEPARADOR que no recibe nada y no devuelve nada:
           
 #include <iostream>
-#include <conio.h>
+//#include <conio.h>
 #include <stdio.h>
 #include <iomanip>
 using namespace std; 
 
-// Definición de la Función Separador 
+// Definiciï¿½n de la Funciï¿½n Separador 
 void separador()
 {
      cout<<endl<<"*****************************************"<<endl;
@@ -21,7 +21,7 @@ int main(){
     cout<<"    ***  Tema del dia: FUNCIONES  ***";
     separador();
 
-//  llamada a la Función Separador, constituye por sí misma una sentencia.
+//  llamada a la Funciï¿½n Separador, constituye por sï¿½ misma una sentencia.
     
     getch();
     return(0);
